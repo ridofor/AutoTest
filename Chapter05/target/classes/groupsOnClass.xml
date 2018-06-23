@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="suitename">
+    <!--全部运行-->
+    <test name="runAll">
+        <classes>
+            <class name="com.course.testng.groups.GroupsOnClass1" />
+            <class name="com.course.testng.groups.GroupsOnClass2" />
+            <class name="com.course.testng.groups.GroupsOnClass3" />
+        </classes>
+    </test>
+    <!--按组运行-->
+    <test name="runGourps">
+        <groups>
+            <run>
+                <include name="teacher" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.course.testng.groups.GroupsOnClass1" />
+            <class name="com.course.testng.groups.GroupsOnClass2" />
+            <class name="com.course.testng.groups.GroupsOnClass3" />
+        </classes>
+    </test>
+</suite>
