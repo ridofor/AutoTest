@@ -44,6 +44,7 @@ public class BasicAnnotation {
         System.out.println("after class,这是在类运行之后运行的方法");
     }
 
+    //在所有标签之前运行
     @BeforeSuite
     public void beforeSuite(){
         System.out.println("before suite,测试套件");
@@ -52,5 +53,15 @@ public class BasicAnnotation {
     @AfterSuite
     public void afterSuite(){
         System.out.println("after suite,测试套件");
+    }
+
+    @BeforeTest
+    public void beforeTest(){
+        System.out.println("before test");
+    }
+
+    @AfterTest
+    public void afterTest(){
+        System.out.println("after test");
     }
 }
