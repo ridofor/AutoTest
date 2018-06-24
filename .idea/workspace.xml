@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f907da90-3319-4196-9810-2c21abc4c858" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/multiThread/MultiThreadOnAnnotion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter05/target/classes/com/course/testng/parameters/DataProviderTest.class" afterPath="$PROJECT_DIR$/Chapter05/target/classes/com/course/testng/parameters/DataProviderTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/parameters/DataProviderTest.java" afterPath="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/parameters/DataProviderTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter05/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +15,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MultiThreadOnAnnotion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/multiThread/MultiThreadOnAnnotion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,6 +65,7 @@
         <option value="$PROJECT_DIR$/Chapter05/src/main/resources/parameter.xml" />
         <option value="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/parameters/ParameterTest.java" />
         <option value="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/parameters/DataProviderTest.java" />
+        <option value="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/multiThread/MultiThreadOnAnnotion.java" />
       </list>
     </option>
   </component>
@@ -64,8 +77,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="405" />
-    <option name="y" value="39" />
+    <option name="x" value="540" />
+    <option name="y" value="96" />
     <option name="width" value="1437" />
     <option name="height" value="804" />
   </component>
@@ -411,15 +424,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="parameters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="multiThread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,7 +450,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DataProviderTest">
+  <component name="RunManager" selected="TestNG.MultiThreadOnAnnotion">
     <configuration name="DataProviderTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -542,10 +547,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ParameterTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiThreadOnAnnotion" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.parameters.*" />
+          <option name="PATTERN" value="com.course.testng.multiThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -553,8 +558,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.course.testng.parameters" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.parameters.ParameterTest" />
+      <option name="PACKAGE_NAME" value="com.course.testng.multiThread" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.multiThread.MultiThreadOnAnnotion" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -684,18 +689,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG./Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.ParameterTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.DataProviderTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test1" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test2" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.DataProviderTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test1" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test2" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.MultiThreadOnAnnotion" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.DataProviderTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test2" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test1" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG./Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.ParameterTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.MultiThreadOnAnnotion" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.DataProviderTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test2" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test1" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG./Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -728,24 +733,25 @@
     <history-entry file="DataProviderTest_test2 - 2018.06.24 at 11h 46m 12s.xml">
       <configuration name="DataProviderTest.test2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DependTest - 2018.06.23 at 21h 44m 24s.xml">
-      <configuration name="DependTest" configurationId="TestNG" />
+    <history-entry file="MultiThreadOnAnnotion - 2018.06.24 at 16h 14m 45s.xml">
+      <configuration name="MultiThreadOnAnnotion" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MultiThreadOnAnnotion - 2018.06.24 at 16h 16m 24s.xml">
+      <configuration name="MultiThreadOnAnnotion" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MultiThreadOnAnnotion - 2018.06.24 at 16h 17m 11s.xml">
+      <configuration name="MultiThreadOnAnnotion" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ParameterTest - 2018.06.24 at 10h 31m 33s.xml">
       <configuration name="ParameterTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_guxianghong_IDEA_JavaAutoTest_AutoTest_Chapter05_src_main_resources_parameter_xml - 2018.06.24 at 10h 27m 02s.xml">
-      <configuration name="/Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_guxianghong_IDEA_JavaAutoTest_AutoTest_Chapter05_src_main_resources_parameter_xml - 2018.06.24 at 10h 31m 16s.xml">
-      <configuration name="/Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_guxianghong_IDEA_JavaAutoTest_AutoTest_Chapter05_src_main_resources_parameter_xml - 2018.06.24 at 10h 32m 26s.xml">
       <configuration name="/Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="405" y="39" width="1437" height="804" extended-state="0" />
+    <frame x="540" y="96" width="1437" height="804" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -755,12 +761,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3877551" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3877551" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -969,6 +975,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/multiThread/MultiThreadOnAnnotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
