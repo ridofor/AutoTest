@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f907da90-3319-4196-9810-2c21abc4c858" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/dependtest/DependTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/parameters/ParameterTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter05/src/main/resources/parameter.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter05/target/" />
@@ -14,21 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DependTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/dependtest/DependTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-              <folding>
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,6 +51,8 @@
         <option value="$PROJECT_DIR$/Chapter05/src/main/resources/groupsOnClass.xml" />
         <option value="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/exceptions/ExpectedException.java" />
         <option value="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/dependtest/DependTest.java" />
+        <option value="$PROJECT_DIR$/Chapter05/src/main/resources/parameter.xml" />
+        <option value="$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/parameters/ParameterTest.java" />
       </list>
     </option>
   </component>
@@ -75,8 +64,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="514" />
-    <option name="y" value="48" />
+    <option name="x" value="237" />
+    <option name="y" value="33" />
     <option name="width" value="1437" />
     <option name="height" value="804" />
   </component>
@@ -422,7 +411,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="dependtest" type="462c0819:PsiDirectoryNode" />
+              <item name="parameters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
@@ -456,7 +445,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DependTest">
+  <component name="RunManager" selected="TestNG./Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml">
     <configuration name="DependTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -521,10 +510,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GroupsOnMethod" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.groups.*" />
+          <option name="PATTERN" value="com.course.testng.parameters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -532,40 +521,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupsOnMethod" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="IgnoreTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.ignore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Chapter05" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.course.testng.ignore" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.ignore.IgnoreTest" />
+      <option name="PACKAGE_NAME" value="com.course.testng.parameters" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.parameters.ParameterTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -591,6 +548,33 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter05/src/main/resources/groupsOnClass.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="/Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Chapter05" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter05/src/main/resources/parameter.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -694,19 +678,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.IgnoreTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.GroupsOnMethod" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG./Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.ExpectedException" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.DependTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG./Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ExpectedException" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.DependTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG./Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.ParameterTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.DependTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ExpectedException" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG./Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.GroupsOnMethod" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.IgnoreTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG./Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ParameterTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.DependTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ExpectedException" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG./Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -724,9 +708,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicAnnotation - 2018.06.23 at 16h 24m 57s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DependTest - 2018.06.23 at 21h 43m 55s.xml">
       <configuration name="DependTest" configurationId="TestNG" />
     </history-entry>
@@ -742,22 +723,24 @@
     <history-entry file="GroupsOnMethod - 2018.06.23 at 16h 43m 13s.xml">
       <configuration name="GroupsOnMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="IgnoreTest - 2018.06.23 at 16h 35m 46s.xml">
-      <configuration name="IgnoreTest" configurationId="TestNG" />
+    <history-entry file="ParameterTest - 2018.06.24 at 10h 31m 33s.xml">
+      <configuration name="ParameterTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_guxianghong_IDEA_JavaAutoTest_AutoTest_Chapter05_src_main_resources_groupsOnClass_xml - 2018.06.23 at 17h 08m 28s.xml">
       <configuration name="/Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/groupsOnClass.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_guxianghong_IDEA_JavaAutoTest_AutoTest_Chapter05_src_main_resources_suite_xml - 2018.06.23 at 16h 25m 18s.xml">
-      <configuration name="/Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/suite.xml" configurationId="TestNG" />
+    <history-entry file="_Users_guxianghong_IDEA_JavaAutoTest_AutoTest_Chapter05_src_main_resources_parameter_xml - 2018.06.24 at 10h 27m 02s.xml">
+      <configuration name="/Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_guxianghong_IDEA_JavaAutoTest_AutoTest_Chapter05_src_main_resources_suite_xml - 2018.06.23 at 16h 26m 13s.xml">
-      <configuration name="/Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/suite.xml" configurationId="TestNG" />
+    <history-entry file="_Users_guxianghong_IDEA_JavaAutoTest_AutoTest_Chapter05_src_main_resources_parameter_xml - 2018.06.24 at 10h 31m 16s.xml">
+      <configuration name="/Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_guxianghong_IDEA_JavaAutoTest_AutoTest_Chapter05_src_main_resources_parameter_xml - 2018.06.24 at 10h 32m 26s.xml">
+      <configuration name="/Users/guxianghong/IDEA/JavaAutoTest/AutoTest/Chapter05/src/main/resources/parameter.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="514" y="48" width="1437" height="804" extended-state="0" />
-    <editor active="true" />
+    <frame x="237" y="33" width="1437" height="804" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -795,14 +778,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter05/src/main/resources/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/suite/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -913,14 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter05/src/main/resources/groupsOnClass.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/groups/GroupsOnClass2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -953,6 +920,42 @@
             <element signature="e#374#375#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/src/main/java/com/course/testng/parameters/ParameterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/src/main/resources/parameter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/src/main/resources/groupsOnClass.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/src/main/resources/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>

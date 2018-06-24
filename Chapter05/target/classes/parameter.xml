@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="paramtest">
+
+    <test name="param">
+            <!--参数传递-->
+        <parameter name="name" value="gugu" />
+        <parameter name="age" value="20" />
+
+        <classes>
+            <class name="com.course.testng.parameters.ParameterTest" />
+        </classes>
+    </test>
+
+</suite>
