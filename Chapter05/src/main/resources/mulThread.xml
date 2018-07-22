@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="mulThread" parallel="methods" thread-count="2">
+    <!-- methods级别：所有用例都可以在不同的线程下去执行
+    thread-count:代表了最发并发线程数
+
+    -->
+    <test name="demo1">
+        <classes>
+            <class name="com.course.testng.multiThread.MulThreadOnXml" />
+        </classes>
+    </test>
+</suite>
